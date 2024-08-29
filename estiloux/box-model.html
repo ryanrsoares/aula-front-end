@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* espaço entre as colunas (entre os itens) */
+
+        }
+        body {
+            background-color: #8fcdee;
+        }
+
+        article {
+            width: 180px;
+            height: 180px;
+            padding: 15px;
+            border-radius: 10px;
+            border: 3px dashed #009afa;
+            background-color: #dee1e8;
+            text-align: center;
+            box-shadow: 2px 2px 5px black;
+        }
+
+        article img {
+
+            width: 40px;
+        }
+
+        article h1 {
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Courier New', Courier, monospace;
+            text-transform: uppercase;
+        }
+
+        article p {
+            text-align: center;
+            font-family: Georgia;
+            font-size: 12px;
+        }
+
+        .caixa-azul {
+            background-color: #02a2fd;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+
+        <article>
+            <img src="./imagens/flash.svg" alt="Imangem de um Raio">
+            <h1>web design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </article>
+        <article class="caixa-azul">
+            <img src="./imagens/arrow.svg" alt="Imangem de um Raio">
+            <h1>graphics design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </article>
+        <article>
+            <img src="./imagens/pasta.svg" alt="Imangem de um Raio">
+            <h1>ui/ux design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </article>
+    </section>
+</body>
+
+</html>
