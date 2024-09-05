@@ -10,7 +10,7 @@ body {
     height: 20%;
     width: 100%;
     padding: 20px;
-    background-color: #fff15c;
+    background-color: #ff2323;
     box-sizing: border-box;
 }
 .tudo {
@@ -22,13 +22,13 @@ body {
     height: 100%;
     width: 30%;
     padding: 20px;
-    background-color: #3645ef;
+    background-color: #971414;
     box-sizing: border-box;
 }
 .quadrado3 {
     height: 100%;
     width: 70%;
     padding: 20px;
-    background-color: #de65f6;
+    background-color: rgb(246, 101, 101);
     box-sizing: border-box;
 }
